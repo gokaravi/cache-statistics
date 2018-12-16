@@ -18,11 +18,11 @@ public class UserServiceImpl implements UserService {
         if(log.isDebugEnabled()){
             log.debug("START :: Getting all users");
         }
-        User user1 = new User(1, "Ricky", "Ponting");
-        User user2 = new User(2, "Sunil", "Gavaskar");
-        User user3 = new User(3, "Md.", "Azharuddin");
-        User user4 = new User(4, "Aravinda", "De Silva");
-        User user5 = new User(5, "Brian", "Lara");
+        User user1 = new User(1, "John", "Smith");
+        User user2 = new User(2, "Brian", "McMillan");
+        User user3 = new User(3, "Mark", "Robinson Jr.");
+        User user4 = new User(4, "Bill", "Meyer");
+        User user5 = new User(5, "Sara", "Williamson");
         List<User> usersList = new ArrayList<>();
         usersList.add(user1);
         usersList.add(user2);
