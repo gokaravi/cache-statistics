@@ -6,6 +6,6 @@ This project integrates java cache with ehcache3 (provider). It also provides RE
 ### Run as a jar file
 Execute it through command line: java -jar {name of the jar file with extension}
 ### Complete integration of the Swagger ui.
-which can be accessed at: http://localhost:9090/swagger-ui.html
+which can be accessed at: http://localhost:9090/xapi/swagger-ui.html
 
 
